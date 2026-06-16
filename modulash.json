@@ -1,0 +1,30 @@
+{
+  "name": "cliash/cliash",
+  "version": "1.0.0",
+  "type": "project",
+  "description": "Modulash clish",
+  "author": "Lee Wong <leewong@example.com>",
+  "maintainers": [
+    "leewong@example.com"
+  ],
+  "keywords": [
+    "clish",
+    "Modulash"
+  ],
+  "dependencies": {
+    "clish/console": "^1.0.0"
+  },
+  "aliases": {
+    "@": "./",
+    "@cmd": "./bin/commands"
+  },
+  "facade": {
+  },
+  "devDependencies": [],
+  "optionalDependencies": [],
+  "registry": {
+    "default": "http://localhost:8000/api/packages",
+    "fallback": "./modules",
+    "local": "./modules"
+  }
+}
