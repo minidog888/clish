@@ -20,6 +20,11 @@
   },
   "facade": {
   },
+  "scripts": {
+      "post-create-project-cmd": [
+          "~/workspaces/modkit/test2/modulash/dist/modulash dump-autoload"
+      ]
+  },
   "devDependencies": [],
   "optionalDependencies": [],
   "registry": {
