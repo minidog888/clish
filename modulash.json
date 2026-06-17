@@ -21,7 +21,10 @@
   "facade": {
   },
   "scripts": {
-      "post-create-project-cmd": [
+      "post-create-project": [
+          "~/workspaces/modkit/test2/modulash/dist/modulash dump-autoload"
+      ],
+      "post-install": [
           "~/workspaces/modkit/test2/modulash/dist/modulash dump-autoload"
       ]
   },
